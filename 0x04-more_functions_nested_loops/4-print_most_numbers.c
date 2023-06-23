@@ -8,11 +8,11 @@
 
 void print_most_numbers(void)
 {
-	int a = 0;
+	int x = 0;
 
-	for (; a <= 9; a++)
+	for (; x <= 9; x++)
 	{
-	if (a == 2 || a == 4)
+	if (x == 2 || x == 4)
 	{
 	continue;
 	}
@@ -21,5 +21,5 @@ void print_most_numbers(void)
 	_putchar(x + '0');
 	}
 	}
-	_putchar('\n');
+	_putchar('\n')
 }
