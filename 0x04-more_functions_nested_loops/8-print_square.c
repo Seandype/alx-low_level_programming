@@ -2,13 +2,14 @@
 
 /**
  *print_square - prints a square, followed by a new line
- *@size: The number of square 
+ *@size: The number of square
  *Return: empty
  */
 
 void print_square(int size)
 {
 	int x, y;
+
 	if (size <= 0)
 	{
 	_putchar('\n');
